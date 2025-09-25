@@ -236,6 +236,9 @@
                           Table 2: Comparison with state-of-the-art methods on VRSBench Dataset.
                        </p>
                    </div>
+                    <p class="text-lg leading-relaxed text-gray-700">
+                        Table 2 compares models trained on the full VRSBench (Full Amount Fine-tune) against few-shot models (1/5/10-shot Fine-tune). The few-shot results include both SFT-based models and our RL-tuned models. Performance data for the full-data baselines (except Qwen2.5-VL) are taken from the original VRSBench paper. The results reveal a clear performance hierarchy: RL-based post-training methods consistently and significantly outperform the SFT approach across all settings and metrics. This advantage is substantial; for example, in the 10-shot overall setting, our GRPO-based model achieves an Acc@0.5 score 12.30% higher than its SFT counterpart. Remarkably, our 10-shot GRPO model using only 260 samples, 0.71% data, achieves a score that surpasses all evaluated models (except Qwen2.5-VL) trained on all 36,313 samples.
+                    </p>
                     
                     <h4 class="text-2xl font-semibold mb-6 text-center">Quantitative Results (Cross Dataset)</h4>
                     <div class="max-w-5xl mx-auto">
