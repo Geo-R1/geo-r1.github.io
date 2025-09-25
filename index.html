@@ -92,22 +92,22 @@
             <div class="container mx-auto px-6 text-center">
                 <p class="text-lg font-semibold text-blue-600 mb-4">Conference Name</p>
                 <h2 class="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 leading-tight">
-                    Your Awesome Paper Title Here
+                    Geo-R1: Improving Few-Shot Geospatial Referring Expression Understanding with Reinforcement Fine-Tuning
                 </h2>
                 <p class="max-w-3xl mx-auto text-lg text-gray-600 mb-8">
-                    A concise, powerful one-sentence summary highlighting the core contribution of your work.
+                    Reasoning Models and Few-shot Benchmarks for Remote Sensing Referring Expression Understanding Tasks.
                 </p>
                 
                 <!-- Authors -->
                 <div class="flex justify-center flex-wrap gap-x-8 gap-y-4 mb-10 text-lg">
-                    <span><strong>Your Name¹</strong></span>
-                    <span>Collaborator Name²</span>
-                    <span>Another Collaborator¹</span>
-                    <span>Supervisor Name²</span>
+                    <span><strong>Anonymous¹</strong></span>
+                    <span>Anonymous²</span>
+                    <span>Anonymous¹</span>
+                    <span>Anonymous²</span>
                 </div>
                 <div class="flex justify-center flex-wrap gap-x-6 gap-y-2 text-md text-gray-500">
-                    <span>¹Your University/Institution</span>
-                    <span>²Collaborator's University/Institution</span>
+                    <span>¹Anonymous Institution</span>
+                    <span>²Anonymous Institution</span>
                 </div>
 
                 <!-- Action Buttons -->
@@ -115,11 +115,11 @@
                     <a href="path/to/your/paper.pdf" class="inline-block bg-blue-600 text-white font-semibold py-3 px-8 rounded-lg shadow-md hover:bg-blue-700 transition-transform transform hover:scale-105 duration-300">
                         <i class="fas fa-file-pdf mr-2"></i> Paper PDF
                     </a>
-                    <a href="https://github.com/your-username/your-repo" target="_blank" class="inline-block bg-gray-800 text-white font-semibold py-3 px-8 rounded-lg shadow-md hover:bg-gray-900 transition-transform transform hover:scale-105 duration-300">
+                    <a href="https://github.com/Geo-R1/geo-r1" target="_blank" class="inline-block bg-gray-800 text-white font-semibold py-3 px-8 rounded-lg shadow-md hover:bg-gray-900 transition-transform transform hover:scale-105 duration-300">
                         <i class="fab fa-github mr-2"></i> View Code
                     </a>
-                    <a href="#video" class="inline-block bg-white text-gray-800 font-semibold py-3 px-8 rounded-lg shadow-md hover:bg-gray-100 border border-gray-200 transition-transform transform hover:scale-105 duration-300">
-                        <i class="fas fa-play-circle mr-2"></i> Watch Video
+                    <a href="https://huggingface.co/Geo-R1" target="_blank" class="inline-block bg-white text-gray-800 font-semibold py-3 px-8 rounded-lg shadow-md hover:bg-gray-100 border border-gray-200 transition-transform transform hover:scale-105 duration-300">
+                        <span class="mr-2">🤗</span> Hugging Face
                     </a>
                 </div>
             </div>
@@ -129,9 +129,9 @@
         <section id="teaser" class="py-20 bg-white">
             <div class="container mx-auto px-6">
                 <div class="max-w-5xl mx-auto">
-                    <img src="https://placehold.co/1200x600/e2e8f0/64748b?text=Compelling+Teaser+Figure" alt="Teaser figure for the paper" class="rounded-lg shadow-2xl w-full">
+                    <img src="https://github.com/Geo-R1/geo-r1.github.io/edit/main/fig_1.png" alt="Teaser figure for the paper" class="rounded-lg shadow-2xl w-full">
                     <p class="text-center mt-4 text-gray-500">
-                        Fig 1: A brief description of the teaser figure, explaining what it showcases.
+                        Geo-R1 method overview. Geo-R1 is trained on a few labeled samples with reinforcement learning (e.g., GRPO) and can identify target objects (bounding boxes or masks) from an input image and text query while providing the reasoning process.
                     </p>
                 </div>
             </div>
@@ -143,7 +143,7 @@
                 <div class="max-w-3xl mx-auto">
                     <h3 class="text-3xl font-bold text-center mb-8">Abstract</h3>
                     <p class="text-lg leading-relaxed text-gray-700 bg-white p-8 rounded-lg shadow-lg border border-gray-200">
-                        This is where your abstract goes. Paste your abstract text here. We propose a novel method for solving an important problem. Through an innovative architecture and training strategy, our model achieves state-of-the-art performance on several benchmarks. We also validate the effectiveness of each component of our method through extensive ablation studies. This work opens up new possibilities for future research.
+                        Referring expression understanding in remote sensing poses unique challenges, as it requires reasoning over complex object–context relationships. While supervised fine-tuning (SFT) on multimodal large language models achieves strong performance with massive labeled datasets, they struggle in data-scarce scenarios, leading to poor generalization. To address this limitation, we propose Geo-R1, a reasoning-centric reinforcement fine-tuning (RFT) paradigm for few-shot geospatial referring. Geo-R1 enforces the model to first generate explicit, interpretable reasoning chains that decompose referring expressions, and then leverage these rationales to localize target objects. This ``reason first, then act" process enables the model to make more effective use of limited annotations, enhances generalization, and provides interpretability. We validate Geo-R1 on three carefully designed few-shot geospatial referring benchmarks, where our model consistently and substantially outperforms SFT baselines. It also demonstrates strong cross-dataset generalization, highlighting its robustness.
                     </p>
                 </div>
             </div>
