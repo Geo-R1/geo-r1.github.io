@@ -154,22 +154,15 @@
         <!-- Referring Expression Understanding Section -->
         <section id="reu" class="py-20 bg-white">
             <div class="container mx-auto px-6">
-                <div class="max-w-3xl mx-auto">
-                    <h3 class="text-3xl font-bold text-center mb-8">Referring Expression Understanding</h3>
-                    <div class="text-lg leading-relaxed text-gray-700 space-y-6">
-                        <p>
-                            Referring Expression Understanding (REU) serves as a unifying framework for Generalized Referring Expression Comprehension (GREC) and Generalized Referring Expression Segmentation (GRES). Given an image \[I\] and a textual query \[q\], a vision–language model (VLM) \[\mathcal{F}\] predicts one or more target objects, as formulated in Eq. (1):
-                        </p>
-                        <div class="text-center text-xl my-4 p-4 bg-gray-50 rounded-md">
-                            \[ \{O_1, \ldots, O_N\} \;=\; \mathcal{F}(I, q) \quad (1) \]
-                        </div>
-                        <p>
-                            where each \[O_i\] denotes a predicted object parsed from VLM text outputs, and \[N\] denotes the number of parsed objects. In the case of GREC, \[O_i\] is represented as a bounding box, while for GRES, \[O_i\] is represented as an instance mask.
-                        </p>
-                        <p>
-                            Tasks such as REC, RES, Generalized REC (GREC), Generalized RES (GRES), Visual Grounding (VG), Open-Vocabulary Detection (OVD), and Open-Vocabulary Segmentation (OVS) can all be seen as specialized forms of REU, each with a different emphasis.
-                        </p>
-                    </div>
+                 <h3 class="text-3xl font-bold text-center mb-12">Referring Expression Understanding</h3>
+                <div class="max-w-5xl mx-auto">
+                    <img src="https://placehold.co/1200x600/e2e8f0/64748b?text=REU+Framework+Figure" alt="Figure for Referring Expression Understanding" class="rounded-lg shadow-xl w-full">
+                    <p class="text-center mt-4 text-gray-500">
+                        Fig 2: An overview of our Referring Expression Understanding framework.
+                    </p>
+                    <p class="text-lg leading-relaxed text-gray-700">
+                        Tasks such as REC, RES, Generalized REC (GREC), Generalized RES (GRES), Visual Grounding (VG), Open-Vocabulary Detection (OVD), and Open-Vocabulary Segmentation (OVS) can all be seen as specialized forms of REU, each with a different emphasis.
+                    </p>
                 </div>
             </div>
         </section>
