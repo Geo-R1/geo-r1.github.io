@@ -148,7 +148,32 @@
                 </div>
             </div>
         </section>
+        
+        <!-- Referring Expression Understanding Section -->
+        <section id="reu" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="max-w-3xl mx-auto">
+                    <h3 class="text-3xl font-bold text-center mb-8">Referring Expression Understanding</h3>
+                    <p class="text-lg leading-relaxed text-gray-700">
+                        This section can explain the background and importance of Referring Expression Understanding (REU), which involves locating a specific object in an image based on a natural language description. It's a challenging task that requires a deep understanding of both vision and language. You can add more details about the specific challenges your paper addresses in this area.
+                    </p>
+                </div>
+            </div>
+        </section>
 
+        <!-- Dataset Section -->
+        <section id="dataset" class="py-20">
+            <div class="container mx-auto px-6">
+                <h3 class="text-3xl font-bold text-center mb-12">Dataset</h3>
+                <div class="max-w-5xl mx-auto">
+                    <img src="fig_dataset.png" alt="Dataset statistics figure" class="rounded-lg shadow-xl w-full mb-6">
+                    <p class="text-lg leading-relaxed text-gray-700">
+                        we do not partition the dataset into base and novel classes. Instead, we treat all classes as novel and provide only a few labeled examples per class. We construct instruction-following few-shot datasets for the FS-GREC and FS-GRES tasks by deriving them from the training sets of three widely used remote sensing benchmarks: VRSBench, NWPU VHR-10, and EarthReason. Configurations and statistics are summarized in the table above. For the OVD task, we select four classes on which the baseline model (Qwen2.5-VL-3B) demonstrated decent performance. We select all categories from the training set for other tasks. The low-shot dataset is a subset of the high-shot dataset. To evaluate cross-dataset generalization, we further evaluate zero-shot performance on DIOR-RSVG and RRSIS-D datasets.
+                    </p>
+                </div>
+            </div>
+        </section>
+        
         <!-- Method Section -->
         <section id="method" class="py-20 bg-white">
             <div class="container mx-auto px-6">
