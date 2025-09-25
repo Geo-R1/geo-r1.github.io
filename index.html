@@ -206,7 +206,7 @@
             <div class="container mx-auto px-6">
                 <h3 class="text-3xl font-bold text-center mb-12">Experimental Results</h3>
                 <div class="max-w-6xl mx-auto">
-                     <p class="text-center text-lg text-gray-600 max-w-3xl mx-auto mb-12">
+                     <p class="text-lg leading-relaxed text-gray-700">
                         We evaluated our method on several public datasets and compared it with state-of-the-art approaches. The data for the low-shot setting is a subset of the data for the many-shot setting.
                     </p>
                     <!-- Qualitative Results -->
@@ -245,7 +245,7 @@
                           Table 5: Cross Dataset Evaluation
                        </p>
                    </div>
-                    <p class="text-center text-lg text-gray-600 max-w-3xl mx-auto mb-12">
+                    <p class="text-lg leading-relaxed text-gray-700">
                          We further assess the cross-dataset generalization of the SFT and GRPO approaches on the FS-GREC and FS-GRES tasks. For the FS-GREC task, we fine-tune models on the VRSBench dataset with limited supervision (1, 5, and 10-shot) and then evaluate model performance on the DIOR-RSVG target dataset, in a zero-shot manner. As shown in Table 5, GRPO consistently outperforms SFT across all settings, achieving a performance advantage of 4.92%, 6.05%, and 5.52% in the 1-shot, 5-shot, and 10-shot scenarios, respectively. Similarly, for the FS-GRES task, models were tuned on the EarthReason dataset (1, 5, and 10-shot) and tested on the RRSIS-D dataset. Here, the GRPO-based model (Geo-R1) demonstrates a remarkable improvement over the SFT-based model (SegEarth-R1) under few-shot setting, achieving a relative improvement up to 80%. These results highlight GRPO's incredible cross-dataset generalization, indicating superior transferability and robustness of Geo-R1.
                     </p>
                 </div>
