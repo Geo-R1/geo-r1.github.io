@@ -212,66 +212,35 @@
                 <h3 class="text-3xl font-bold text-center mb-12">Experimental Results</h3>
                 <div class="max-w-6xl mx-auto">
                      <p class="text-center text-lg text-gray-600 max-w-3xl mx-auto mb-12">
-                        We evaluated our method on several public datasets and compared it with state-of-the-art approaches.
+                        We evaluated our method on several public datasets and compared it with state-of-the-art approaches. The data for the low-shot setting is a subset of the data for the many-shot setting.
                     </p>
                     <!-- Qualitative Results -->
                     <h4 class="text-2xl font-semibold mb-6 text-center">Qualitative Results</h4>
-                    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-                        <div class="bg-white p-4 rounded-lg shadow-lg border border-gray-200">
-                            <img src="https://placehold.co/600x400/e2e8f0/64748b?text=Result+Comparison+1" alt="Result comparison 1" class="rounded-md w-full mb-3">
-                            <p class="text-sm text-gray-600">Input vs. Ours vs. Baseline.</p>
+                    <div class="space-y-16 mb-12">
+                        <!-- First Large Image -->
+                        <div class="max-w-5xl mx-auto">
+                           <img src="sample_1.png" alt="First qualitative result" class="rounded-lg shadow-xl w-full border border-gray-200">
+                           <p class="text-center mt-4 text-gray-500">
+                              Sample Fig 1: Caption for the first qualitative result. For example, comparing our method against baselines in a specific scenario.
+                           </p>
                         </div>
-                        <div class="bg-white p-4 rounded-lg shadow-lg border border-gray-200">
-                            <img src="https://placehold.co/600x400/e2e8f0/64748b?text=Result+Comparison+2" alt="Result comparison 2" class="rounded-md w-full mb-3">
-                            <p class="text-sm text-gray-600">Excellent performance in complex scenarios.</p>
-                        </div>
-                        <div class="bg-white p-4 rounded-lg shadow-lg border border-gray-200">
-                            <img src="https://placehold.co/600x400/e2e8f0/64748b?text=Failure+Case+Analysis" alt="Failure case analysis" class="rounded-md w-full mb-3">
-                            <p class="text-sm text-gray-600">A typical failure case and its analysis.</p>
+                        <!-- Second Large Image -->
+                        <div class="max-w-5xl mx-auto">
+                           <img src="sample_2.png" alt="Second qualitative result" class="rounded-lg shadow-xl w-full border border-gray-200">
+                           <p class="text-center mt-4 text-gray-500">
+                              Sample Fig 2: Caption for the second qualitative result. For example, showing the robustness of our model in a challenging case.
+                           </p>
                         </div>
                     </div>
 
                     <!-- Quantitative Results -->
                     <h4 class="text-2xl font-semibold mb-6 text-center">Quantitative Results</h4>
-                    <div class="overflow-x-auto bg-white rounded-lg shadow-lg border border-gray-200">
-                        <table class="min-w-full text-center">
-                            <thead class="bg-gray-100">
-                                <tr>
-                                    <th class="py-4 px-6 font-semibold text-gray-700">Method</th>
-                                    <th class="py-4 px-6 font-semibold text-gray-700">Dataset A (Metric X) ↑</th>
-                                    <th class="py-4 px-6 font-semibold text-gray-700">Dataset B (Metric Y) ↓</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-gray-600">
-                                <tr class="border-t">
-                                    <td class="py-4 px-6">Method 1 (SOTA)</td>
-                                    <td class="py-4 px-6">0.85</td>
-                                    <td class="py-4 px-6">10.5</td>
-                                </tr>
-                                <tr class="border-t bg-gray-50">
-                                    <td class="py-4 px-6">Method 2</td>
-                                    <td class="py-4 px-6">0.87</td>
-                                    <td class="py-4 px-6">9.8</td>
-                                </tr>
-                                <tr class="border-t">
-                                    <td class="py-4 px-6 font-bold text-blue-600">Our Method</td>
-                                    <td class="py-4 px-6 font-bold text-blue-600">0.92</td>
-                                    <td class="py-4 px-6 font-bold text-blue-600">8.1</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Video Section -->
-        <section id="video" class="py-20 bg-white">
-            <div class="container mx-auto px-6">
-                <h3 class="text-3xl font-bold text-center mb-12">Video Presentation</h3>
-                <div class="max-w-4xl mx-auto video-container shadow-2xl">
-                     <!-- Replace "your_video_id" in the src with your YouTube video ID -->
-                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="max-w-5xl mx-auto">
+                        <img src="fig_table2.png" alt="Quantitative results table" class="rounded-lg shadow-xl w-full">
+                        <p class="text-center mt-4 text-gray-500">
+                          Table 2: Comparison with state-of-the-art methods on VRSBench Dataset.
+                       </p>
+                   </div>
                 </div>
             </div>
         </section>
@@ -282,11 +251,11 @@
                  <h3 class="text-3xl font-bold text-center mb-8">Citation</h3>
                 <div class="max-w-3xl mx-auto bg-white p-8 rounded-lg shadow-lg border border-gray-200">
                     <pre class="bg-gray-100 p-6 rounded-md text-gray-700 overflow-x-auto"><code>@inproceedings{YourLastName2025AwesomeTitle,
-  title={Your Awesome Paper Title Here},
-  author={Your Name and Collaborator Name and Supervisor Name},
-  booktitle={Conference Name},
-  year={2025}
-}</code></pre>
+                          title={Your Awesome Paper Title Here},
+                          author={Your Name and Collaborator Name and Supervisor Name},
+                          booktitle={Conference Name},
+                          year={2025}
+                    }</code></pre>
                     <button id="copy-btn" class="mt-4 bg-gray-200 text-gray-800 font-semibold py-2 px-6 rounded-lg hover:bg-gray-300 transition duration-300 w-full md:w-auto">
                         <i class="fas fa-copy mr-2"></i> Copy BibTeX
                     </button>
